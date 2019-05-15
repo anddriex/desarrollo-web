@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  background-color: #000066; }
+
+#page {
+  background-color: #F53;
+  min-width: 377px;
+  min-height: 677px;
+  margin: 0 auto;
+  max-width: 1440px; }
+
+.header {
+  background-color: #fff;
+  height: 177px; }
+
+.toolbar {
+  height: 60px;
+  background: #000; }
+  .toolbar .languages {
+    display: block;
+    float: left;
+    margin-top: 13px;
+    margin-left: 87px; }
+  .toolbar .social {
+    display: block;
+    float: right;
+    margin-top: 4px;
+    margin-right: 78px; }
+    .toolbar .social img {
+      margin: 4px 1px 0px 6px; }
+
+nav {
+  font-size: 24px;
+  font-family: sans-serif;
+  letter-spacing: -3px; }
+  nav img {
+    display: block;
+    float: left;
+    margin: 20px 74px 0 73px; }
+  nav a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin: 50px 5px 0 3px; }
+  nav .search {
+    margin: 56px 0 0 41px;
+    float: left;
+    display: block; }
+    nav .search input {
+      display: block;
+      float: left;
+      width: 196px;
+      border: none;
+      border-bottom: 1px solid #000; }
+    nav .search a {
+      display: block;
+      float: left;
+      margin: -4px 0px 0px 6px; }
+
+.content {
+  background: #888;
+  height: 1674px; }
+
+.banner {
+  height: 555px;
+  overflow: hidden;
+  position: relative; }
+  .banner img {
+    margin: -304px 0px 0px 0; }
+  .banner .wifizone {
+    position: absolute;
+    top: 86px;
+    left: 0; }
+    .banner .wifizone img {
+      margin: 0 0px 0px 167px;
+      padding: 0px 0px 70px 0px; }
+      .banner .wifizone img:last-child {
+        padding: 38px 67px 71px 60px;
+        margin-left: 206px;
+        margin-top: -22px;
+        background-color: rgba(255, 255, 255, 0.5); }
+
+.services {
+  background-color: #fff;
+  padding-top: 32px; }
+  .services h1 {
+    font-family: "Helvetica", sans-serif;
+    font-size: 66px;
+    font-weight: 100;
+    margin: 0px 0px 0px 58px;
+    letter-spacing: 0px; }
+  .services p {
+    font-size: 26px;
+    padding-left: 67px;
+    margin-top: 20px;
+    padding-right: 32px; }
+    .services p:nth-child(3) {
+      padding-top: 13px;
+      padding-bottom: 55px; }
+
+.catalog {
+  display: flex;
+  justify-content: space-between; }
+  .catalog .product {
+    width: 438px;
+    height: 418px; }
+    .catalog .product img {
+      overflow: hidden;
+      height: 245px;
+      width: 438px; }
+    .catalog .product .description {
+      border-width: 0 1px 1px 1px;
+      padding-left: 36px;
+      padding-top: 18px;
+      border-style: solid;
+      height: 152px;
+      border-color: #eef; }
+      .catalog .product .description:hover {
+        background-color: #ded; }
+      .catalog .product .description h2 {
+        font-size: 25px;
+        margin-top: 0; }
+      .catalog .product .description p {
+        margin: 0;
+        font-size: 19px;
+        padding: 0; }
+
+.register {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: #000;
+  height: 231px;
+  padding-top: 72px; }
+  .register p {
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    transform: scale(1, 1.5);
+    margin-bottom: 46px; }
+  .register .register-area {
+    display: flex;
+    justify-content: center;
+    height: 78px;
+    margin-left: 53px; }
+    .register .register-area input {
+      width: 470px; }
+    .register .register-area a {
+      background-color: #000;
+      width: 244px;
+      text-align: center;
+      text-decoration: none;
+      padding-top: 24px;
+      color: #fff;
+      font-size: 25px;
+      font-family: sans-serif; }
+
+.footer {
+  height: 440px;
+  background: black;
+  color: #fff;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 16px;
+  font-family: sans-serif; }
+  .footer h2 {
+    font-size: 20px; }
+  .footer .clients {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 0px; }
+  .footer .links {
+    display: flex;
+    justify-content: space-evenly;
+    border-width: 0 0 1px 0;
+    border-color: #fff;
+    border-style: solid;
+    width: 100%;
+    padding-top: 73px;
+    line-height: 32px;
+    padding-bottom: 61px; }
+    .footer .links .related-links {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      text-decoration: none; }
+      .footer .links .related-links a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 21px; }
+  .footer p {
+    margin-top: 23px;
+    font-size: 21px; }
+
+/*# sourceMappingURL=mipagina.css.map */
